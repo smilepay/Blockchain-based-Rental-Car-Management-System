@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:background="#A4A4A4" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+
+    <com.example.sookmyung.myapplication1.MyView_front
+        android:background="@drawable/car_front"
+        android:layout_width="715dp"
+        android:layout_height="265dp"
+        android:id="@+id/drawing"/>
+
+</LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="540dp"
+        android:layout_height="250dp"
+        android:id="@+id/pager"
+        android:layout_marginTop="70dp"/>
+
+
+    <LinearLayout
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp">
+
+    <Button
+        android:background="@drawable/check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/blackline" android:layout_weight="1" android:layout_marginRight="6dp"/>
+
+    <Button
+        android:background="@drawable/erase"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/whiteline" android:layout_weight="1"
+        android:layout_marginLeft="6dp"/>
+
+</LinearLayout>
+
+</RelativeLayout>

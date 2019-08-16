@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:background="#A4A4A4" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.example.sookmyung.myapplication1.NonSwipeableViewPager
+        android:id="@+id/vp"
+        android:layout_width="540dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/drawing"
+        android:layout_marginBottom="0dp" />
+
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="230dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="160dp">
+
+        <Button
+            android:id="@+id/button_front"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/front" />
+
+        <Button
+            android:id="@+id/button_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/right" />
+
+        <Button
+            android:id="@+id/button_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/left" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/back" />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="600dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="10dp">
+
+
+    <LinearLayout android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView2" android:textSize="20sp" android:textColor="@android:color/background_dark" android:text="직원 이름:"/>
+
+        <EditText
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+</LinearLayout>
+
+    <Button
+        android:background="@drawable/extra_defect"
+        android:layout_width="108dp"
+        android:layout_height="58dp"
+        android:id="@+id/button4"
+        android:layout_marginTop="-30dp"
+        android:layout_weight="@id/drawing"
+        android:layout_marginLeft="420dp"/>
+
+</LinearLayout>
+
+</RelativeLayout>

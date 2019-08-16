@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest xmlns:tools="http://schemas.android.com/tools"
+        package="com.example.sookmyung.myapplication1" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.CALL_PHONE" />
+   <uses-permission
+       android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+
+<application
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="User"
+        android:icon="@mipmap/ic_launcher" android:allowBackup="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+
+
+    <activity android:name=".SplashActivity" android:theme="@style/SplashTheme" android:screenOrientation="portrait">
+    <intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+    <activity android:name=".MainActivity"></activity>
+    <activity android:name=".DefectCheck"> </activity>
+
+    <activity android:name=".Carstatuscheck"> </activity>
+    <activity android:name=".history_total.History"> </activity>
+    <activity android:name=".history_total.History_choice"> </activity>
+    <activity android:name=".extra_check.Extra_check1"> </activity>
+    <activity android:name=".Car_num"></activity>
+    <activity android:name=".extra_check.Defect_check_extra"> </activity>
+    <activity android:name=".history_total.History_extra"> </activity>
+    <activity android:name=".extra_check.Extra_check2"></activity>
+    <activity android:name=".Select_option"></activity>
+
+
+
+
+</application>
+
+</manifest>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4A4A4">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/car_blueprint2"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginLeft="52dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:src="@drawable/car_blueprint2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/plug"
+            android:layout_width="74dp"
+            android:layout_height="85dp"
+            android:layout_x="95dp"
+            android:layout_y="36dp"
+            android:src="@drawable/plug"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <ImageView
+            android:id="@+id/battery"
+            android:layout_width="57dp"
+            android:layout_height="53dp"
+            android:layout_x="94dp"
+            android:layout_y="160dp"
+            android:src="@drawable/battery"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="169dp" />
+
+        <ImageView
+            android:id="@+id/motor_pic"
+            android:layout_width="68dp"
+            android:layout_height="84dp"
+            android:layout_x="187dp"
+            android:layout_y="95dp"
+            android:src="@drawable/motor"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="11dp"
+            android:layout_x="148dp"
+            android:layout_y="41dp"
+            android:src="@drawable/red_circle"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="228dp" />
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="35dp"
+            android:layout_x="93dp"
+            android:layout_y="215dp"
+            android:src="@drawable/red_line"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="237dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="54dp"
+            android:layout_x="173dp"
+            android:layout_y="215dp"
+            android:src="@drawable/red_line_circle"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="195dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="155dp"
+            android:layout_y="226dp"
+            android:background="#00ff0000"
+            android:fontFamily="@font/lobster"
+            android:text="BATTERY"
+            android:textSize="15dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="267dp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="12dp"
+            android:layout_x="247dp"
+            android:layout_y="138dp"
+            android:src="@drawable/red_circle"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <ImageView
+            android:layout_width="203dp"
+            android:layout_height="23dp"
+            android:layout_x="104dp"
+            android:layout_y="21dp"
+            android:src="@drawable/red_line3"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <ImageView
+            android:layout_width="81dp"
+            android:layout_height="52dp"
+            android:layout_x="231dp"
+            android:layout_y="0dp"
+            android:src="@drawable/red_line_circle"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <CheckBox
+            android:id="@+id/plug_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_x="222dp"
+            android:layout_y="14dp"
+            android:background="#00ff0000"
+            android:fontFamily="@font/lobster"
+            android:text="PLUG"
+            android:textSize="15dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="18dp"
+            android:layout_x="262dp"
+            android:layout_y="136dp"
+            android:src="@drawable/red_line4"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="wrap_content"
+            android:layout_x="118dp"
+            android:layout_y="202dp"
+            android:src="@drawable/red_circle"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="62dp"
+            android:layout_x="369dp"
+            android:layout_y="114dp"
+            android:src="@drawable/red_line_circle"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="361dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <CheckBox
+            android:id="@+id/motor_checkbox"
+            android:layout_width="99dp"
+            android:layout_height="21dp"
+            android:layout_x="339dp"
+            android:layout_y="135dp"
+            android:background="#00ff0000"
+            android:fontFamily="@font/lobster"
+            android:text="MOTOR"
+            android:textSize="15dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="334dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <Button
+            android:id="@+id/save1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="492dp"
+            android:layout_y="227dp"
+            android:background="#00ff0000"
+            android:fontFamily="@font/lobster"
+            android:text="저장하기"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="461dp"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="52dp"
+            android:layout_x="513dp"
+            android:layout_y="220dp"
+            android:src="@drawable/checked"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="480dp"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_x="502dp"
+            android:layout_y="259dp"
+            android:src="@drawable/gray_line"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="474dp"
+            tools:layout_editor_absoluteY="294dp" />
+
+        <TextView
+            android:id="@+id/order_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="311dp"
+            android:layout_y="7dp"
+            android:fontFamily="@font/lobster"
+            android:text="추가 사항"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="302dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/extra"
+            android:layout_width="206dp"
+            android:layout_height="37dp"
+            android:layout_x="386dp"
+            android:layout_y="0dp"
+            android:fontFamily="@font/lobster"
+            android:gravity="top"
+            android:inputType="text|textMultiLine"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="372dp"
+            tools:layout_editor_absoluteY="4dp" />
+    </AbsoluteLayout>
+
+
+</android.support.constraint.ConstraintLayout>

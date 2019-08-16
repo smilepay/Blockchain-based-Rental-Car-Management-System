@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4A4A4">
+
+    <LinearLayout
+        android:id="@+id/history1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="날짜별 기록확인하기"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:fontFamily="@font/lobster"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
