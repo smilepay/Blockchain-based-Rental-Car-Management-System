@@ -17,7 +17,7 @@
 ![image](https://user-images.githubusercontent.com/54186647/63193263-fc829b00-c0a7-11e9-8671-224798cf8afb.png)
 
 ## 기업용 어플
-![image](https://user-images.githubusercontent.com/54186647/63193263-fc829b00-c0a7-11e9-8671-224798cf8afb.png)
+![image](https://user-images.githubusercontent.com/54186647/63214637-aec46c00-c155-11e9-9036-15674749eb63.png)
 
 ## 사용자용 어플
 ![image](https://user-images.githubusercontent.com/54186647/63193370-45d2ea80-c0a8-11e9-9d3c-7109d2505a91.png)
