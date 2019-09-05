@@ -26,7 +26,7 @@
 ![image](https://user-images.githubusercontent.com/54186647/63193408-5b481480-c0a8-11e9-8140-5b0daaf0581e.png)
 
 # 4. 시연 영상
-[![Video Label](https://www.youtube.com/watch?v=4WMIelnnWL0&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=4WMIelnnWL0&feature=youtu.be)
+[![Video Label](http://img.youtube.com/vi/4WMIelnnWL0/0.jpg)](https://www.youtube.com/watch?v=4WMIelnnWL0&feature=youtu.be)
 
 # 5. 향후 발전 방향
 
