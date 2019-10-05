@@ -8,7 +8,7 @@
 
 # 2. 개발 환경
 
- Android Studio, Mysql, Eclipse, Apache Tomcat, Galaxy s9
+ Android Studio / Mysql / Eclipse / Apache Tomcat / Galaxy s9 / BlockChain implement by JAVA
 
 # 3. 시스템 구조
 
